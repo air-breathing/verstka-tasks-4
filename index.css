@@ -1,0 +1,54 @@
+main
+{
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+    column-count: 6;
+    -webkit-column-rule: 2px solid black;
+    background: Ivory;
+    margin: 10px;
+    border: 2px solid black;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+h1
+{
+    font-family: 'Oranienbaum', serif;
+    column-span: all;
+    -webkit-column-span: all;
+    text-align: center;
+    border: 2px double black;
+    padding: 20px;
+}
+p{
+    font-family: 'Oranienbaum', serif;
+    hyphens:manual;
+    text-align: justify;
+    font-size: 10pt;
+}
+h2
+{
+    font-size: 25px;
+}
+h3
+{
+    text-transform: uppercase;
+}
+.sub-header
+{
+    font-size: 0.7em;
+}
+img{
+    width:200%;
+    float: left;
+    float: right;
+    column-span: 2;
+    -webkit-column-span: 2;
+}
+article > p::first-letter
+{
+    font-size: 2em;
+}
+.vertical
+{
+
+}
