@@ -21,11 +21,9 @@ section:first-of-type
     -webkit-column-rule: 2px solid black;
     bottom:10px;
     padding: 3px;
-
 }
 section:nth-of-type(2)
 {
-    /*float: left;*/
     padding: 3px;
     width: 40%;
     -moz-column-count: 2;
@@ -48,22 +46,16 @@ h2
     column-span: all;
     -webkit-column-span: all;
     border-top: 2px solid black;
-    text-align: center;
+    text-align: justify;
     font-family: 'Oranienbaum', serif;
 
 }
 figure
 {
-    /*float: left;
-    /*float: right;*/
-    /*column-count: 3;
-    -webkit-column-count: 3;*/
     column-span: all;
     -webkit-column-span: all;
-    /*display: inline-table;*/
     border: 2px solid black;
-    max-width: 100%;
-
+    max-width: 80%;
 }
 p
 {
@@ -87,22 +79,32 @@ h3
 img{
     width: 100%;
     max-width: 100%;
-    /*width:200%;*/
-    /*column-span: 2;
-    -webkit-column-span: 2;*/
 }
 .start::first-letter
 {
     font-size: 4em;
 }
+.neighbor
+{
+    border-collapse: collapse;
+    float: left;
+    column-span: all;
+    -webkit-column-span: all;
+
+    height: 100%;
+    position: relative;
+    /*display: block;*/
+    margin: 10px;
+
+}
 .vertical
 {
-    width: 1px;
-    position: relative;
-}
-.last
-{
-    /*column-break-before:always;*/
+    width: 20%;
+    border: 2px solid black;
+    display: block;
+    /*position: relative;*/
+    font-size: 14pt;
+    padding-right: 10px;
 }
 footer
 {
