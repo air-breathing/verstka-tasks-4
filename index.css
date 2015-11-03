@@ -5,14 +5,13 @@ main
     border: 2px solid black;
     border-left-width: 0;
     border-right-width: 0;
-    float: none;
     display:table;
 }
 section.cell
 {
     display: table-cell;
 }
-section:first-of-type
+section.first
 {
     width: 50%;
     -moz-column-count: 3;
@@ -22,7 +21,7 @@ section:first-of-type
     bottom:10px;
     padding: 3px;
 }
-section:nth-of-type(2)
+section.second
 {
     padding: 3px;
     width: 40%;
@@ -62,7 +61,7 @@ p
     font-family: 'Oranienbaum', serif;
     hyphens:manual;
     text-align: justify;
-    font-size: 10pt;
+    font-size: 13px;
 }
 h2
 {
@@ -103,7 +102,7 @@ img{
     border: 2px solid black;
     display: block;
     /*position: relative;*/
-    font-size: 14pt;
+    font-size: 14px;
     padding-right: 10px;
 }
 footer
@@ -116,7 +115,7 @@ footer:before
 }
 blockquote
 {
-    font-size: 20pt;
+    font-size: 20px;
     column-span: all;
     -webkit-column-span: all;
     background: white;
